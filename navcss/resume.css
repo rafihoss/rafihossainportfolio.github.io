@@ -1,0 +1,124 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: -25px;
+}
+
+.toptext {
+  margin-left: 20px;
+}
+
+.topic {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  border: 3px solid;
+  margin-left: 60px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  font-size: 25px;
+  color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options p {
+  margin: 15px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+}
+/* This will create a two-column layout where the text is on the left and the image is on the right. The flex property is used to create the columns and the flex:1 property is used to divide the parent container into two equal parts.
+ */
+
+.resume-title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align:center;
+}
+.download-text{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+}
+
+.fullscreen-text{
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+}
+
+.image img:hover {
+  transform:scale(1.4);
+	transition-duration:0.2s;
+  border: 2px solid black;
+}
+
+resume-image {
+  border: 6px solid black;
+}
+
+/* .resume-image{
+  height: 20%;
+  width:auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
