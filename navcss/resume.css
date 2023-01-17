@@ -1,22 +1,26 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-image: url("https://img.freepik.com/free-photo/white-brick-wall-textured-background_53876-147809.jpg?w=2000")
 }
 
 
 .top {
   display: flex;
   align-items: center;
-  margin-bottom: -25px;
+  margin-bottom: 30px;
+  background-image: url("https://wallpapercave.com/wp/wp4586989.jpg");
 }
 
 .toptext {
   margin-left: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 .topic {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 25px;
   font-weight: bold;
 }
@@ -24,19 +28,27 @@ html, body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  border: 3px solid;
-  margin-left: 60px;
+  border: 5px solid white;
+  margin-left: 57px;
 }
 
 /* Style the topnav links */
 .topnav a {
-  font-size: 25px;
-  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
   float: left;
   display: block;
   text-align: center;
   padding: 14px 45px;
   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
 
 .resume-container {
@@ -89,8 +101,8 @@ html, body {
   border: 2px solid black;
 }
 
-resume-image {
-  border: 6px solid black;
+.image img {
+  border: 3px solid black;
 }
 
 /* .resume-image{
